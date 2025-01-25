@@ -109,6 +109,14 @@ ul {
     margin-right: -12px;
     margin-left: -12px;
 }
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
 .d-flex {
     display: flex;
 }
@@ -225,3 +233,4 @@ ul {
     background-color: #c40001;
     color: #fff;
 }
+  
