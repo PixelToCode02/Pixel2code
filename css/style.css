@@ -106,7 +106,39 @@ ul {
 
 .row {
     display: flex;
-    flex-wrap: nowrap;
     margin-right: -12px;
     margin-left: -12px;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+
+.hener{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-bar{
+    padding: 20px 0px;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+
+.menu ul li a {
+   font-size: 20px;
+   color: #000;
 }
