@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon_pause_white</title>
+    <defs>
+        <path d="M18,7 L18,19 L15,19 L15,7 L18,7 Z M11,7 L11,19 L8,19 L8,7 L11,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon_pause_white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+    </g>
+</svg>
