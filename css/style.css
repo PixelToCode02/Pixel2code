@@ -166,3 +166,25 @@ ul {
 }
 
 /* BANNER  */
+
+
+
+
+/* About */
+
+.about-section{
+background-image:url(../image/about.jpg) ;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.about-titel{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.about-card{
+    background-color: #f7f7f7;
+}
