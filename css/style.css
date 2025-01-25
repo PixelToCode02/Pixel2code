@@ -120,6 +120,9 @@ ul {
 .d-flex {
     display: flex;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .justify-content-around{
     justify-content: space-around;
 }
@@ -152,7 +155,7 @@ ul {
     padding: 20px 0px;
 }
 .logo img{
-    width: 200px;
+    width: 230px;
     height: 100px;
 }
 
@@ -168,9 +171,7 @@ ul {
 }
 .search-bar svg{
     position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+    right: 120px;
 }
 
 .menu ul li a {
@@ -192,6 +193,8 @@ ul {
     bottom: -5px;
     left: 0;
     transition: all 0.3s ease-in-out;
+    display: block;
+    z-index: 1;
 }
 
 .menu ul li:hover::before{
@@ -209,7 +212,7 @@ ul {
 
 /* BANNER  */
 .banner{
-    padding: 40px;
+    padding: 80px;
 }
 
 .banner-contant h1{
