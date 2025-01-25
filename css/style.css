@@ -118,6 +118,9 @@ ul {
 .justify-content-between{
     justify-content: space-between;
 }
+.align-items-center{
+    align-items: center;
+}
 
 /* HEADER */
 
@@ -137,8 +140,27 @@ ul {
     height: 100px;
 }
 
+.search-bar input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px 2px  #000 solid;
+}
 
 .menu ul li a {
    font-size: 20px;
    color: #000;
+   font-weight: 500;
 }
+
+.menu ul li a:hover{
+    color: #c40001;
+}
+
+
+
+
+
+
+
+/* BANNER  */
