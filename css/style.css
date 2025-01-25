@@ -249,9 +249,33 @@ padding-bottom: 100px;
     font-size: 30px;
     text-decoration: underline;
 }
+.about-contant{
+    display: flex;
+}
 
 .about-card{
     background-color: #f7f7f7;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
+    position: relative;
+    z-index: 99;
+}
+.about-card-titel h3{
+    font-size: 25px;
+    padding: 30px 0px;
+    font-weight: 500;
+}
+.card-img{
+    background-repeat: no-repeat;
+    position:absolute;
+    right:41px;
+    top: 53px;
+    z-index: -1;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+.about-card:hover .card-img{
+    display: block;
+    cursor: pointer;
+
 }
